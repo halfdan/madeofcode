@@ -1,6 +1,6 @@
-baseURL = 'http://madeofco.de/'
+baseURL = 'http://madewithco.de/'
 languageCode = 'en-us'
-title = 'Made of Code'
+title = 'Made with Code'
 theme = 'cactus'
 
 
