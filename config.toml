@@ -2,7 +2,13 @@ baseURL = 'http://madewithco.de/'
 languageCode = 'en-us'
 title = 'Made with Code'
 theme = 'cactus'
+enableRobotsTXT = true
+copyright = "Fabian Becker"
 
+[taxonomies]
+category = 'categories'
+series = 'series'
+tag = 'tags'
 
 [[menu.main]]
 name = "Home"
@@ -23,3 +29,28 @@ weight = 3
 name = "About"
 url = "/about"
 weight = 4
+
+[params]
+  dateFormat = "January 2, 2006"
+  colorTheme = "white"
+  rss = true
+  description = """
+  Hi, I'm Fabian. 
+
+  I love to work through coding challenges and discover new techniques along the way. In this blog I document my thought process while working through coding challenges.
+
+  You can find more in-depth and long-form articles from me on [Geekmonkey](https://geekmonkey.org).
+  """
+  mainSectionTitle = "Blog"
+
+  [[params.social]]
+    name = "github"
+    link = "https://github.com/halfdan"
+
+  [[params.social]]
+    name = "email"
+    link = "halfdan@xnorfz.de" # no need for "mailto:" at the start
+
+  [[params.social]]
+    name = "linkedin"
+    link = "https://www.linkedin.com/in/fabianbecker42/"
